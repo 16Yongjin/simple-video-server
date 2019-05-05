@@ -11,6 +11,6 @@ html(lang="en")
   body
     video#player(controls)
       source(src='/'+ movie type=movieType)
-      track(src="captions/vtt/sintel-en.vtt" label="Korean" kind="subtitles" srclang="ko" default)
+      track(src=subtitle label="Korean" kind="subtitles" srclang="ko" default)
     script
       | var player = new Plyr('#player')
